@@ -1,0 +1,327 @@
+<template>
+  <div class="page page-home">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="left">
+          <img src="img/logo2.png" class="logo-apps" />
+
+        </div>
+        <div class="title"></div>
+        <div class="right">
+          <a href="#" class="link">
+            <i class="icon f7-icons color-black">
+              bell <span class="badge color-blue">5</span></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="toolbar tabbar tabbar-icons toolbar-bottom toolbar-center">
+      <div class="toolbar-inner">
+        <a href="#tab-beranda" class="tab-link tab-link-active">
+          <i class="icon f7-icons">house_fill</i>
+        </a>
+
+        <a href="#tab-suka" class="tab-link">
+          <i class="icon f7-icons">heart_fill</i>
+        </a>
+
+        <a href="#tab-keranjang" class="tab-link">
+          <i class="icon f7-icons">cart_fill</i>
+        </a>
+
+        <a href="#tab-orang" class="tab-link">
+          <i class="icon f7-icons">person_fill</i>
+        </a>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <div id="tab-beranda" class="page-content tab tab-active">
+        <div style="margin-bottom: 55px;">
+          <form class="searchbar">
+            <div class="searchbar-inner">
+              <div class="searchbar-input-wrap">
+                <input type="search" placeholder="Search" />
+                <i class="searchbar-icon"></i>
+                <span class="input-clear-button"></span>
+              </div>
+              <span class="searchbar-disable-button">Cancel</span>
+            </div>
+          </form>
+        </div>
+
+        <swiper-container pagination
+          class="demo-swiper-multiple ml-15 mr-15 swiper color-blue swiper-container radius15" space-beetwen="50"
+          data-loop="true" autoplay
+          style="margin-top: -20px;">
+          <swiper-slide class="radius15 text-color-white swiper-slide"><img src="img/banner1.webp"
+              alt="" /></swiper-slide>
+          <swiper-slide class="radius15 text-color-white swiper-slide"><img src="img/banner2.webp"
+              alt="" /></swiper-slide>
+        </swiper-container>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; margin-left: 23px; margin-right: 23px;">
+          <span style="font-size: 18px; font-weight: 500;">Categories</span>
+          <a href="#all-categories" style="color: blue; text-decoration: none; font-weight: 500;" class="tab-link">Show All</a>
+        </div>
+
+        <div class="card transparent-div">
+
+          <swiper-container class="mySwiper" space-between="30" slides-per-view="4" style="width: 100%; height: 100%;">
+
+            <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+              <img src="img/brain.svg" class="besar-icon100" />
+              <span style="color: #000; font-weight: 500;">Brain</span>
+            </swiper-slide>
+
+            <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+              <img src="img/heart-rate.svg" class="besar-icon100" />
+              <span style="color: #000; font-weight: 500;">Heart</span>
+            </swiper-slide>
+
+            <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+              <img src="img/stomach1.svg" class="besar-icon100" />
+              <span style="color: #000; font-weight: 500;">Stomach</span>
+            </swiper-slide>
+
+            <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+              <img src="img/lungs.svg" class="besar-icon100" />
+              <span style="color: #000; font-weight: 500;">Lungs</span>
+            </swiper-slide>
+
+            <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+              <img src="img/female-nurse.svg" class="besar-icon100" />
+              <span style="color: #000; font-weight: 500;">Care</span>
+            </swiper-slide>
+          </swiper-container>
+            <div class="tabs">
+              <div id="all-categories" class="tab">
+                <swiper-container class="mySwiper" space-between="30" slides-per-view="4" style="width: 100%; height: 100%;">
+                  <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="img/nutrition.svg" style="width: 35px; height: 50px;" />
+                    <span style="color: #000; font-weight: 500;">Nutrition</span>
+                  </swiper-slide>
+
+                  <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="img/fitness.svg" class="besar-icon100" />
+                    <span style="color: #000; font-weight: 500;">Fitness</span>
+                  </swiper-slide>
+
+                  <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="img/idea.svg" class="besar-icon100" />
+                    <span style="color: #000; font-weight: 500;">Tips</span>
+                  </swiper-slide>
+
+                  <swiper-slide style="text-align: center; font-size: 18px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="img/user-group.svg" class="besar-icon100" />
+                    <span style="color: #000; font-weight: 500;">Community</span>
+                  </swiper-slide>
+
+
+                </swiper-container>
+              </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; margin-left: 23px; margin-right: 23px; margin-top: 25px;">
+          <span style="font-size: 18px; font-weight: 500;">Popular</span>
+          <a href="#all-product" style="color: blue; text-decoration: none; font-weight: 500;" class="tab-link">Show All</a>
+        </div>
+        <div class="row grid grid-cols-2"
+        style="margin-top: -5px; gap: 15px; justify-content: center; margin-right: 15px; margin-left: 15px">
+
+        <!-- Produk 1 -->
+        <a href="#" class="col text-align-center font18 text-color-black">
+          <div class="card text-align-center" style="position: relative;">
+            <div class="card-content card-content-padding">
+              <img src="img/detol.webp" class="besar-icon80" style="width: 100px; height: 100px; object-fit: cover;" />
+              <div style="font-weight: 400; margin-top: 10px; margin-bottom: 5px;">
+                Detol 45 Ml
+              </div>
+              <div style="font-weight: 500; color: #333;">
+                Rp9.592
+              </div>
+              <div style="font-weight: 500; margin-top: 15px; color: #888; display: flex; justify-content: center; align-items: center;">
+                <i class="f7-icons" style="color: #FFD700; font-size: 20px;">star_fill</i>
+                <span style="margin-left: 2px; font-size: 15px;">4.5 | 500+ sold</span>
+              </div>
+            </div>
+            <div style="position: absolute; top: 10px; right: 10px; color: red;">
+              <i class="f7-icons" style="font-size: 20px;">heart</i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Produk 2 -->
+        <a href="#" class="col text-align-center font18 text-color-black">
+          <div class="card text-align-center" style="position: relative;">
+            <div class="card-content card-content-padding">
+              <img src="img/provital.webp" class="besar-icon80" style="width: 100px; height: 100px; object-fit: cover;" />
+              <div style="font-weight: 400; margin-top: 10px; margin-bottom: 5px;">
+                Provital 10 Tablet
+              </div>
+              <div style="font-weight: 500; color: #333;">
+                Rp55.000
+              </div>
+              <div style="font-weight: 500; margin-top: 15px; color: #888; display: flex; justify-content: center; align-items: center;">
+                <i class="f7-icons" style="color: #FFD700; font-size: 20px;">star_fill</i>
+                <span style="margin-left: 2px; font-size: 15px;">4.8 | 1,200+ sold</span>
+              </div>
+            </div>
+            <div style="position: absolute; top: 10px; right: 10px; color: red;">
+              <i class="f7-icons" style="font-size: 20px;">heart_fill</i>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="row grid grid-cols-2"
+        style="margin-top: -5px; gap: 15px; justify-content: center; margin-right: 15px; margin-left: 15px">
+
+        <!-- Produk 3 -->
+        <a href="#" class="col text-align-center font18 text-color-black">
+          <div class="card text-align-center" style="position: relative;">
+            <div class="card-content card-content-padding">
+              <img src="img/vitamin-c.webp" class="besar-icon80" style="width: 100px; height: 100px; object-fit: cover;" />
+              <div style="font-weight: 400; margin-top: 10px; margin-bottom: 5px;">
+                Vitamin C 10 Tablet
+              </div>
+              <div style="font-weight: 500; color: #333;">
+                Rp2.500
+              </div>
+              <div style="font-weight: 500; margin-top: 15px; color: #888; display: flex; justify-content: center; align-items: center;">
+                <i class="f7-icons" style="color: #FFD700; font-size: 20px;">star_fill</i>
+                <span style="margin-left: 2px; font-size: 15px;">4.9 | 2,000+ sold</span>
+              </div>
+            </div>
+            <div style="position: absolute; top: 10px; right: 10px; color: red;">
+              <i class="f7-icons" style="font-size: 20px;">heart_fill</i>
+            </div>
+          </div>
+        </a>
+
+        <!-- Produk 4 -->
+        <a href="#" class="col text-align-center font18 text-color-black">
+          <div class="card text-align-center" style="position: relative;">
+            <div class="card-content card-content-padding">
+              <img src="img/meloscop.webp" class="besar-icon80" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px;" />
+              <div style="font-weight: 400; margin-top: 10px; margin-bottom: 5px;">
+                Meloscop 10 Tablet
+              </div>
+              <div style="font-weight: 500; color: #333;">
+                Rp25.000
+              </div>
+              <div style="font-weight: 500; margin-top: 15px; color: #888; display: flex; justify-content: center; align-items: center;">
+                <i class="f7-icons" style="color: #FFD700; font-size: 20px;">star_fill</i>
+                <span style="margin-left: 2px; font-size: 15px; ">5.0 | 750+ sold</span>
+              </div>
+            </div>
+            <div style="position: absolute; top: 10px; right: 10px; color: red;">
+              <i class="f7-icons" style="font-size: 20px;">heart</i>
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+      <!-- tabs show all -->
+
+      <div class="tabs">
+        <div id="all-product" class="tab">
+          <div class="row grid grid-cols-2"
+          style="margin-top: -5px; gap: 15px; justify-content: center; margin-right: 15px; margin-left: 15px">
+
+          <!-- Produk 3 -->
+          <a href="#" class="col text-align-center font18 text-color-black">
+            <div class="card text-align-center" style="position: relative;">
+              <div class="card-content card-content-padding">
+                <img src="img/barbel.webp" class="besar-icon80" style="width: 100px; height: 100px; object-fit: cover;" />
+                <div style="font-weight: 400; margin-top: 10px; margin-bottom: 5px;">
+                  Barbel
+                </div>
+                <div style="font-weight: 500; color: #333;">
+                  Rp72.500
+                </div>
+                <div style="font-weight: 500; margin-top: 15px; color: #888; display: flex; justify-content: center; align-items: center;">
+                  <i class="f7-icons" style="color: #FFD700; font-size: 20px;">star_fill</i>
+                  <span style="margin-left: 2px; font-size: 15px;">3.9 | 4,00+ sold</span>
+                </div>
+              </div>
+              <div style="position: absolute; top: 10px; right: 10px; color: red;">
+                <i class="f7-icons" style="font-size: 20px;">heart_fill</i>
+              </div>
+            </div>
+          </a>
+
+          <!-- Produk 4 -->
+          <a href="#" class="col text-align-center font18 text-color-black">
+            <div class="card text-align-center" style="position: relative;">
+              <div class="card-content card-content-padding">
+                <img src="img/matras.png" class="besar-icon80" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px;" />
+                <div style="font-weight: 400; margin-top: 10px; margin-bottom: 5px;">
+                  Matras
+                </div>
+                <div style="font-weight: 500; color: #333;">
+                  Rp63.500
+                </div>
+                <div style="font-weight: 500; margin-top: 15px; color: #888; display: flex; justify-content: center; align-items: center;">
+                  <i class="f7-icons" style="color: #FFD700; font-size: 20px;">star_fill</i>
+                  <span style="margin-left: 2px; font-size: 15px; ">3.0 | 300+ sold</span>
+                </div>
+              </div>
+              <div style="position: absolute; top: 10px; right: 10px; color: red;">
+                <i class="f7-icons" style="font-size: 20px;">heart</i>
+              </div>
+            </div>
+          </a>
+        </div>
+        </div>
+      </div>
+
+
+      </div>
+
+
+      <div id="tab-suka" class="page-content tab">
+        <div class="card skeleton-text skeleton-effect-wave">
+          <div class="card-header">Card Header</div>
+          <div class="card-content card-content-padding">
+            Percobaan text untuk div skeleton Percobaan text untuk div skeleton
+            Percobaan text untuk div skeleton Percobaan text untuk div skeleton
+          </div>
+          <div class="card-footer">Card Footer</div>
+        </div>
+      </div>
+
+      <div id="tab-keranjang" class="page-content tab">
+        <div class="card skeleton-text skeleton-effect-wave">
+          <div class="card-header">Card Header</div>
+          <div class="card-content card-content-padding">
+            Percobaan text untuk div skeleton Percobaan text untuk div skeleton
+            Percobaan text untuk div skeleton Percobaan text untuk div skeleton
+          </div>
+          <div class="card-footer">Card Footer</div>
+        </div>
+      </div>
+
+      <div id="tab-orang" class="page-content tab">
+        <div class="card skeleton-text skeleton-effect-wave">
+          <div class="card-header">Card Header</div>
+          <div class="card-content card-content-padding">
+            Percobaan text untuk div skeleton Percobaan text untuk div skeleton
+            Percobaan text untuk div skeleton Percobaan text untuk div skeleton
+          </div>
+          <div class="card-footer">Card Footer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

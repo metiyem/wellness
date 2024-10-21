@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.wellness.care" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Wellness</name>
+    <description>
+        Aplikasi Kesehatan adalah solusi lengkap untuk memantau dan meningkatkan kualitas hidup Anda. Dirancang untuk membantu Anda mencapai gaya hidup sehat, aplikasi ini menyediakan berbagai fitur yang mudah digunakan untuk memantau kesehatan fisik, mental, dan kebugaran Anda. Dengan Aplikasi Kesehatan, Anda dapat mengelola asupan nutrisi, melacak aktivitas harian, memantau kondisi kesehatan, hingga mendapatkan tips kesehatan dari para ahli.
+    </description>
+    <author href="https://github.com/metiyem/" email="sudoaptu@gmail.com">
+        Muhammad Dliyaurrahman Muzakki
+    </author>
+    <content src="index.html" />
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="22" />
+        <preference name="android-targetSdkVersion" value="34" />
+        <preference name="android-installLocation" value="auto" />
+        <preference name="AndroidLaunchMode" value="singleInstance" />
+        <preference name="Orientation" value="portrait" />
+
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="slice.png" />
+
+    </platform>
+    <icon src="logo.png" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+</widget>
